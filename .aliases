@@ -1,0 +1,19 @@
+alias be='bundle exec'
+alias ber='bundle exec rake'
+alias beer='bundle exec rake'
+alias clr="printf '\n%.0s' {1..5};clear"
+alias dev='RAILS_ENV=development'
+alias gaa='git add .;git status'
+alias gcm='git commit -m'
+alias gpom='git push origin master'
+alias gpo='git push origin '
+alias grhh='git reset HEAD --hard'.
+alias rls='source ~/.zshrc'
+alias routes='bundle exec rake routes > ~/Desktop/routes.txt; cat ~/Desktop/routes.txt'
+alias rsdb='rails server --debugger'
+alias rvm-restart='rvm_reload_flag=1 source '\''/Users/laux/.rvm/scripts/rvm'\'''
+alias tst='RAILS_ENV=test'
+alias via='vi ~/.oh-my-zsh/custom/.aliases'
+alias vibash='vi ~/.bash_profile'
+alias vizsh='vi ~/.zshrc'
+
