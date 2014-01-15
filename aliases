@@ -5,6 +5,7 @@ alias clr="printf '\n%.0s' {1..5};clear"
 alias dev='RAILS_ENV=development'
 alias gaa='git add .;git status'
 alias gcm='git commit -m'
+alias gds='git diff --staged'
 alias gpom='git push origin master'
 alias gpo='git push origin '
 alias grhh='git reset HEAD --hard'.
