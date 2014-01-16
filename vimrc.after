@@ -3,3 +3,5 @@ set background=dark
 colorscheme Mustang
 
 color Mustang
+
+map <C-n> :NERDTreeToggle<CR>

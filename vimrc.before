@@ -1,0 +1,12 @@
+execute pathogen#infect()
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" command abbreviations for write/quit
+ca WQ wq
+ca Wq wq
+ca W w
+ca Q q
+ca nt NERDTree
+
+
