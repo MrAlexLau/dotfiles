@@ -11,3 +11,20 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+set tw=2000 "set the default line length to 2000 characters
+
+
+" Disable annoying auto line break
+fu! local:disableBr()
+  set wrap
+  set linebreak
+  set nolist  " list disables linebreak
+  set textwidth=0
+  set wrapmargin=0
+  set fo-=t
+endfu
+
+" Disable line breaks for all file types
+:au BufNewFile,BufRead *.* call local:disableBr()
+
