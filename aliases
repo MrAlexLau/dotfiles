@@ -1,3 +1,4 @@
+alias ascl='bundle exec rake assets:clean'
 alias aspr='bundle exec rake assets:precompile'
 alias be='bundle exec'
 alias bee='bundle exec'
