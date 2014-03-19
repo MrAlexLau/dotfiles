@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " command abbreviations for write/quit
