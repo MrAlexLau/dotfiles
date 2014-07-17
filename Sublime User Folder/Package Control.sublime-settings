@@ -1,0 +1,10 @@
+{
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"Indent XML",
+		"JSONLint",
+		"Pretty JSON",
+		"Sass"
+	]
+}
