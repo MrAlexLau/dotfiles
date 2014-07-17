@@ -1,0 +1,5 @@
+// found in ~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap
+[
+  { "keys": ["ctrl+h"], "command": "focus_neighboring_group", "args": {"forward": false} },
+  { "keys": ["ctrl+l"], "command": "focus_neighboring_group" }
+]
