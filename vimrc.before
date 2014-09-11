@@ -8,4 +8,5 @@ ca Q q
 ca nt NERDTree
 ca ntf NERDTreeFind
 
-
+" alias the_silver_searcher to ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
