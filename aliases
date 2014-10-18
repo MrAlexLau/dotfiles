@@ -48,6 +48,7 @@ alias rvm-restart='rvm_reload_flag=1 source '\''/Users/laux/.rvm/scripts/rvm'\''
 alias taild='tail -f log/development.log'
 alias tailn='tail -n 1000'
 alias tailf='tail -f'
+alias textgame='emacs -batch -l dunnet'
 alias tst='RAILS_ENV=test'
 alias tmux="TERM=screen-256color-bce tmux"
 alias v='vim ./'
