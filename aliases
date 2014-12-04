@@ -8,6 +8,8 @@ alias bees='bundle exec spec'
 alias clr="printf '\n%.0s' {1..20};clear"
 alias dev='RAILS_ENV=development'
 alias gaa='git add .;git status'
+alias gam='git commit --amend'
+alias gamm='git commit --amend -m'
 alias gaad='gaa; gds;'
 alias gb='git branch'
 alias gbd='git branch -d'
